@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: sirius_development
+test:
+  <<: *default
+  database: sirius_test
+production:
+  <<: *default
+  database: sirius_production
+  username: sirius
+  password: <%= ENV['SIRIUS_DATABASE_PASSWORD'] %>
