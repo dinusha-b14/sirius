@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title Sirius
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all'
+  %body
+    #wrapper
+      = render partial: 'layouts/navigation'
+      #page-wrapper
+        = yield
+    = javascript_include_tag 'application'

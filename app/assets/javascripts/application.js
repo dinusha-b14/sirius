@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap/dist/js/bootstrap
+//= require metisMenu/dist/metisMenu
+//= require raphael/raphael
+//= require morrisjs/morris
+//= require sb-admin/sb-admin-2
 //= require_tree .
