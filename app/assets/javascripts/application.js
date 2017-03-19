@@ -17,4 +17,5 @@
 //= require raphael/raphael
 //= require morrisjs/morris
 //= require sb-admin/sb-admin-2
+//= require toastr/toastr
 //= require_tree .
