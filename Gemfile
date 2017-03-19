@@ -11,6 +11,8 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'foreman', '~> 0.83.0'
+gem 'devise', '~> 4.2', '>= 4.2.1'
+gem 'faker', '~> 1.7', '>= 1.7.3'
 
 group :development, :test do
   gem 'byebug', platform: :mri
