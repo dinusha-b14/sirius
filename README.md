@@ -1,3 +1,5 @@
+https://travis-ci.org/dinusha-b14/sirius.svg?branch=master
+
 Sirius
 ==================
 
