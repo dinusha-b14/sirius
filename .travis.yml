@@ -4,6 +4,7 @@ rvm:
 services:
   - postgresql
 install:
+  - bundle install
   - bower install
 before_script:
   - cp config/database.yml.travis config/database.yml
