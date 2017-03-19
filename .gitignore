@@ -15,5 +15,7 @@
 
 **/.DS_Store
 
+/vendor/assets/bower_components
+
 # Ignore Byebug command history file.
 .byebug_history

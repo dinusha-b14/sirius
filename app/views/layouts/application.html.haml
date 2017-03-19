@@ -8,9 +8,6 @@
     #wrapper
       = render 'layouts/navigation'
       #page-wrapper
-        - if notice
-          .alert.alert-success= notice
-        - if alert
-          .alert.alert-danger= alert
         = yield
     = javascript_include_tag 'application'
+    = flash_messages

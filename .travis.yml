@@ -3,6 +3,8 @@ rvm:
   - 2.3.3
 services:
   - postgresql
+install:
+  - bower install
 before_script:
   - cp config/database.yml.travis config/database.yml
   - bundle exec rake db:create
