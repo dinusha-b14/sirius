@@ -5,6 +5,7 @@ services:
   - postgresql
 install:
   - bundle install
+  - npm install -g bower
   - bower install
 before_script:
   - cp config/database.yml.travis config/database.yml
