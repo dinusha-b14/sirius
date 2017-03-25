@@ -14,3 +14,4 @@ before_script:
   - bundle exec rake db:test:prepare
 script:
   - bundle exec rspec
+  - CODECLIMATE_REPO_TOKEN=$CODECLIMATE_REPO_TOKEN bundle exec codeclimate-test-reporter
