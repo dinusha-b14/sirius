@@ -29,6 +29,8 @@ end
 
 group :test do
   gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
+  gem "simplecov"
+  gem "codeclimate-test-reporter", "~> 1.0.0"
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
